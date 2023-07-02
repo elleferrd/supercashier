@@ -268,6 +268,10 @@ Langkah terakhir, customer dapat mencari jumlah yang harus dibayarkan setelah di
 
 # Test Case
 
+![test case1](https://github.com/elleferrd/supercashier/assets/137087598/7aae007c-1884-455a-9337-e3ddbfca5657)
+![test case 2](https://github.com/elleferrd/supercashier/assets/137087598/3a87ae55-9fb9-4aa0-a323-7592c9bc4393)
+![test case 3](https://github.com/elleferrd/supercashier/assets/137087598/de61b85d-ad93-4dc9-849d-57fac8e0287d)
+
 # Conclusion & Future Work
 
 Dari program kasir self service yang telah dibuat customer dapat membuat id transaksi, memasukan belanjaannya (item, jumlah, harga), menghapus, reset transaksi, ataupun update item/jumlah/harga barang yang dibeli, melakukan cek pesanan, serta cek harga yang perlu dibayar. Pada saat yang sama, sistem melakukan penyimpanan kode transaksi yang pernah dikeluarkan dan melakukan perhitungan diskon untuk transaksi dengan minimal belanja tertentu.
