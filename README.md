@@ -279,3 +279,34 @@ Dari program kasir self service yang telah dibuat customer dapat membuat id tran
 Jika memiliki waktu lebih/SDM lebih banyak, terdapat beberapa hal yang dapat di improve pada program tersebut, yaitu
 1. Menggunakan lebih banyak try except untuk memudahkan customer jika terjadi kesalahan input
 2. Fitur penyimpanan data transaksi per transaksi id & pemangilan fungsi lainnya berdasarkan transaksi id tersebut. Jika perlu, dengan nama & nomor member customer. Sehingga, data tesebut nantinya dapat digunakan sebagai input dari marketing analytics untuk menentukan strategi dan taktik marketing.
+
+# Lampiran (Kode Modular)
+        #import kasir
+        from kasir import Transaksi
+        
+        #generate id
+        kasir.Transaksi.generate_id()
+        
+        #add item
+        Transaksi.add_item("<id transaksi>")
+        
+        #update item 
+        Transaksi.update_item_name("<item yang ingin diupdate>", "<item yang akan diupdate>")
+        
+        #update jumlah item
+        Transaksi.update_item_qty("<item yang ingin diupdate>", <jumlah item>)
+        
+        #update harga item
+        Transaksi.update_item_price("<item yang ingin diupdate>", <harga item>)
+        
+        #delete item
+        Transaksi.delete_item("<item yang ingin diupdate>")
+        
+        #reset transaction
+        Transaksi.reset_transaction()
+        
+        #check transaction
+        Transaksi.check_order()
+
+        #check price
+        Transaksi.total_price()
